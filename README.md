@@ -122,5 +122,69 @@ References:
    
 **Google Drive**
 LINK : https://drive.google.com/drive/folders/1T6HZb3pnx6xfvvrPEORGxsOLIIXCTF0I?usp=drive_link
-<img width="754" height="342" alt="image" src="https://github.com/user-attachments/assets/c7092ae5-2ce2-4a8f-ab10-7213e68c8b03" />
+
+Raspberry Pi 3 Model B:-
+
+The Raspberry Pi 3 Model B is a compact, powerful computer used for various embedded and
+IoT projects. It features a 64-bit quad-core CPU, onboard Wi-Fi and Bluetooth, GPIO pins, and
+multiple connectivity ports.
+
+Extra information about Raspberry Pi 3 Model B:-
+
+The Raspberry Pi 3 Model B is a credit card-sized single-board computer ideal for embedded
+systems and IoT applications. In your IoT-Based Home Automation System, it serves as the
+central controller, managing communications between the mobile app and connected
+appliances via GPIO and Wi-Fi.
+
+Key Specifications:-
+
+CPU: 1.2 GHz 64-bit quad-core ARM Cortex-A53
+RAM: 1 GB LPDDR2
+
+Wireless Connectivity:-
+Wi-Fi: 802.11n (2.4 GHz)
+
+Bluetooth: 4.1 (BLE support included)
+
+Ports:
+4 × USB 2.0
+HDMI (for display output)
+3.5 mm audio jack with composite video
+Ethernet port (10/100 Mbps)
+CSI (Camera Serial Interface)
+DSI (Display Serial Interface)
+
+GPIO Pins:
+
+40-pin header with multiple GPIOs, PWM, I2C, SPI, and UART
+
+Storage:
+microSD card slot (boot and primary storage)
+
+Role in Home Automation:
+Controller: Receives commands from a mobile app over Wi-Fi
+GPIO Control: Activates relays connected to appliances (e.g., lights, fans) through GPIO pin 14
+Internet Integration: Allows remote access and control of devices from anywhere
+
+Expandable: Supports additional modules like sensors, cameras, or voice assistants (e.g.,
+Google Assistant)
+
+Advantages in IoT Projects:
+Low power consumption
+Built-in wireless connectivity
+Affordable and community-supported
+Compatible with Python, Node.js, and other programming languages
+Easily integrates with home automation platforms like Home Assistant or OpenHAB
+
+Key Components:
+● 40-Pin GPIO Header
+● USB Ports (x4)
+● HDMI Port
+● Ethernet Port
+● Wi-Fi and Bluetooth
+● MicroSD Card Slot
+● Micro USB Power Port.
+**_FIGURE:-**
+<img width="1000" height="519" alt="image" src="https://github.com/user-attachments/assets/9f570d0c-009f-4cab-a8d3-d24b8be66c4f" />
+
 
