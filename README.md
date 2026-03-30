@@ -1,21 +1,29 @@
 **'IOT Based Home Automation system Using Raspberry PI 3B'**
+
 **Title:**IoT-Based Home Automation System
+
 **Submitted To:** ISTE Project Competition Committee
+
 **Institution:**CSMSS Chh. Shahu College of Engineering,
 Chh.Sambhaji Nagar
+
 **Department :**Electronics & Communication
+
 **Submitted by :** Kishor Vitthal Kakde
+
 **1. Introduction**
 Home automation using IoT (Internet of Things) enhances the quality of life
 by enabling smart control of electrical appliances via smartphones and
 voice assistants. This project leverages affordable microcontrollers,
 wireless communication, and IoT cloud platforms to create an intelligent
 and scalable home automation system.
+
 **2. Objectives**
-* Automate control of home appliances (lights, fans, etc.) using IoT.
-* Enable remote monitoring and operation through a mobile app.
-* Utilize sensors for environment-responsive automation.
-* Improve energy efficiency and user convenience.
+ Automate control of home appliances (lights, fans, etc.) using IoT.
+ Enable remote monitoring and operation through a mobile app.
+ Utilize sensors for environment-responsive automation.
+ Improve energy efficiency and user convenience.
+  
 **3. System Architecture**
 The system is built around a Raspberry Pi as the central controller, with
 connected relays to switch appliances. Devices communicate via Wi-Fi. A
@@ -28,6 +36,7 @@ through the cloud.
 ● Sensors (e.g., PIR, Temperature, Humidity)
 ● Wi-Fi Router
 ● Mobile App(Firebase database)
+
 **4. Components Used**
 ● Raspberry Pi 3B– Central control unit.
 ● Relay Module – Controls AC appliances.
@@ -35,6 +44,7 @@ through the cloud.
 ● PIR Sensor– Detects human motion.
 ● Smartphone– Interface via Firebase database or custom app.
 ● Wi-Fi Router – Enables cloud access.
+
 **5. Working & Implementation**
 ● The Raspberry Pi hosts a Python program that receives input from
 the mobile app and sensors.
@@ -43,6 +53,7 @@ triggers the corresponding relay.
 ● Sensor inputs like motion or temperature can automate responses
 (e.g., turning on fans when it gets hot).
 ● Data can also be logged and monitored via the cloud.
+
 **6. Advantages**
 ● Remote access and control.
 ● Increased home safety through automation.
@@ -53,12 +64,14 @@ triggers the corresponding relay.
 ● Dependent on stable internet connectivity.
 ● Initial setup cost of components.
 ● Security risks if not properly configured.
-8. Applications
+
+**8. Applications**
 ● Smart lighting and climate control.
 ● Elderly and differently-abled assistance.
 ● Energy usage analytics.
 ● Security systems (motion detection, door sensors).
-Block Diagram:
+
+**9. Future Scope**
 ● Integration with AI for behavior learning.
 ● Voice assistant support (e.g., Alexa, Google Assistant).
 ● Expandable to offices and industrial automation.
