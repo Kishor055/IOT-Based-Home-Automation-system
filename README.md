@@ -20,8 +20,11 @@ and scalable home automation system.
 
 **2. Objectives**
  Automate control of home appliances (lights, fans, etc.) using IoT.
+ 
  Enable remote monitoring and operation through a mobile app.
+ 
  Utilize sensors for environment-responsive automation.
+ 
  Improve energy efficiency and user convenience.
   
 **3. System Architecture**
@@ -32,49 +35,77 @@ through the cloud.
 
 **Block Diagram:**
 ● Raspberry Pi (Controller)
+
 ● Relay Module
+
 ● Sensors (e.g., PIR, Temperature, Humidity)
+
 ● Wi-Fi Router
+
 ● Mobile App(Firebase database)
 
 **4. Components Used**
 ● Raspberry Pi 3B– Central control unit.
+
 ● Relay Module – Controls AC appliances.
+
 ● DHT11 Sensor – Measures temperature and humidity.
+
 ● PIR Sensor– Detects human motion.
+
 ● Smartphone– Interface via Firebase database or custom app.
+
 ● Wi-Fi Router – Enables cloud access.
 
 **5. Working & Implementation**
+
 ● The Raspberry Pi hosts a Python program that receives input from
 the mobile app and sensors.
+
 ● When a user activates a switch from the app, the Raspberry Pi
 triggers the corresponding relay.
+
 ● Sensor inputs like motion or temperature can automate responses
 (e.g., turning on fans when it gets hot).
+
 ● Data can also be logged and monitored via the cloud.
 
 **6. Advantages**
+
 ● Remote access and control.
+
 ● Increased home safety through automation.
+
 ● Customizable rules and scheduling.
+
 ● Energy-efficient operation.
 
 **7. Limitations**
+
 ● Dependent on stable internet connectivity.
+
 ● Initial setup cost of components.
+
 ● Security risks if not properly configured.
 
 **8. Applications**
+
 ● Smart lighting and climate control.
+
 ● Elderly and differently-abled assistance.
+
 ● Energy usage analytics.
+
 ● Security systems (motion detection, door sensors).
 
 **9. Future Scope**
+
 ● Integration with AI for behavior learning.
+
 ● Voice assistant support (e.g., Alexa, Google Assistant).
+
 ● Expandable to offices and industrial automation.
+
 ● Solar-powered and offline backup capability.
 
 **10. Conclusion**
