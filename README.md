@@ -1,4 +1,4 @@
-# 🏠 IoT-Based Home Automation System using Raspberry Pi 3B
+<img width="1695" height="936" alt="image" src="https://github.com/user-attachments/assets/e003346e-032a-470e-a06d-1b694cec719d" /># 🏠 IoT-Based Home Automation System using Raspberry Pi 3B
 
 ## 📌 Project Overview
 
@@ -36,7 +36,9 @@ The system consists of a central controller (Raspberry Pi) connected to sensors 
 
 ### 🔲 Block Diagram Components
 
-![Uploading image.png…]()
+<img width="1129" height="544" alt="image" src="https://github.com/user-attachments/assets/d97768a5-d656-464c-8e9c-d985aa5b329a" />
+
+
 
 
 * Raspberry Pi (Controller)
