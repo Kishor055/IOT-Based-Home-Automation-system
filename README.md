@@ -36,6 +36,9 @@ The system consists of a central controller (Raspberry Pi) connected to sensors 
 
 ### 🔲 Block Diagram Components
 
+![Uploading image.png…]()
+
+
 * Raspberry Pi (Controller)
 * Relay Module
 * Sensors (PIR, Temperature, Humidity)
